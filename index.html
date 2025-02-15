@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="modal.css">
 <script src="index.js" defer ></script>
@@ -13,7 +20,7 @@
        <h2>The Energydrink Taste Site</h2>
        <div class="headerBtn">
            <button class="headerButton">MENU</button>
-           <button class="headerButton">CONTACT</button>
+           <button class="headerButton">FAVORITES</button>
            <button class="headerButton">CATEGORY</button>
            <button class="headerButton">ABOUT</button>
        </div>
@@ -29,16 +36,17 @@
                     <div class="flip-card-front">
                         <img src="./images/redbullOrginal.webp" alt="">
                         <p>Redbull Original</p>
-                        <button class="containerBtn" id="containerBtn">TASTE</button>
+                        <div>
+                            <button class="containerBtn" id="containerBtn">TASTE</button>
+                            <button><i class="fa-regular fa-heart"></i></button>
+                        </div>
                     </div>
 
                     <!-- BACK SIDE-->
                      <div class="flip-card-back">
-                         <img src="./images/redbullOrginal.webp" alt="">
+                         <img src="./images/redbullCold.webp" alt="">
                          <p>This is The OG! Tastes like heaven!</p>
                              <button class="cancelBtn" id="cancelBtn">CANCEL</button>
-
-
                      </div>
                 </div>
             </div>
@@ -49,7 +57,10 @@
         <div class="containers">
             <img src="./images/redbullGrønn.webp" alt="">
             <p>Redbull Dragon Fruit</p>
+            <div>
             <button class="containerBtn" id="containerBtn">TASTE</button>
+                <button class="buttonIcon"><i class="fa-regular fa-heart"></i></button>
+            </div>
 
         </div>
 
@@ -57,7 +68,10 @@
         <div class="containers">
             <img src="./images/redbullTropical.webp" alt="">
             <p>Redbull Tropical</p>
-            <button class="containerBtn" id="containerBtn">TASTE</button>
+            <div>
+                <button class="containerBtn" id="containerBtn">TASTE</button>
+                <button class="buttonIcon"><i class="fa-regular fa-heart"></i></button>
+            </div>
 
         </div>
 
@@ -65,21 +79,32 @@
         <div class="containers">
             <img src="./images/redbullPeach.png" alt="">
             <p>Redbull Peach</p>
-            <button class="containerBtn" id="containerBtn">TASTE</button>
-
-
+            <div>
+                <button class="containerBtn" id="containerBtn">TASTE</button>
+                <button class="buttonIcon"><i class="fa-regular fa-heart"></i></button>
+            </div>
         </div>
+
+        
         <div class="containers">
             <img src="./images/monsterOrginal.webp" alt="">
-            <p>Monster Original</p>¨
-            <button class="containerBtn" id="containerBtn">TASTE</button>
+            <p>Monster Original</p>
+            <div>
+                <button class="containerBtn" id="containerBtn">TASTE</button>
+                <button class="buttonIcon"><i class="fa-regular fa-heart"></i></button>
+            </div>
+
         </div>
         
         
         <div class="containers">
             <img src="./images/monsterUltraWhite.jpg" alt="">
             <p>Monster Ultra White</p>
-            <button class="containerBtn" id="containerBtn">TASTE</button>
+            <div>
+                <button class="containerBtn" id="containerBtn">TASTE</button>
+                <button class="buttonIcon"><i class="fa-regular fa-heart"></i></button>
+            </div>
+
 
         </div>
 
@@ -87,15 +112,21 @@
         <div class="containers">
             <img src="./images/monsterPunch.webp" alt="">
             <p>Monster Punch</p>
-            <button class="containerBtn" id="containerBtn">TASTE</button>
+            <div>
+                <button class="containerBtn" id="containerBtn">TASTE</button>
+                <button class="buttonIcon"><i class="fa-regular fa-heart"></i></button>
+            </div>
 
         </div>
 
 
         <div class="containers">
             <img src="./images/monsterPeach.webp" alt="">
-            <p>Monster Peach</p>¨
-            <button class="containerBtn" id="containerBtn">TASTE</button>
+            <p>Monster Peach</p>
+            <div>
+                <button class="containerBtn" id="containerBtn">TASTE</button>
+                <button class="buttonIcon"><i class="fa-regular fa-heart"></i></button>
+            </div>
 
         </div>
     </main>

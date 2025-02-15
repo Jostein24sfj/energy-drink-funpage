@@ -6,6 +6,7 @@
 
 body {
     background-color: rgb(71, 71, 71);
+    font-family: figtree, sans-serif ;
 }  
 
 header {
@@ -79,7 +80,16 @@ header {
     height: 64px;
     width: 164px;
     border: none;
-    box-shadow: 4px 4px 8px;
+    /* box-shadow: 4px 4px 8px; */
+}
+
+.containers .buttonIcon {
+    width: 64px;
+    height: 64px;
+    /* display: grid; */
+    /* flex-direction: row-reverse; */
+    /* justify-content: flex-end; */
+    /* flex-direction: column; */
 }
 
 

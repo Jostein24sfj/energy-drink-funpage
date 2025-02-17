@@ -5,13 +5,14 @@
 }
 
 body {
-  background-color: rgb(71, 71, 71);
-}
+    background-color: rgb(71, 71, 71);
+    font-family: figtree, sans-serif ;
+}  
 
 @media screen and (max-width: 768px) {
-  main {
-    padding-inline: 24px;
-  }
+    main {
+      padding-inline: 24px;
+    }
 }
 
 header {
@@ -79,14 +80,23 @@ header {
 }
 
 .containers button {
-  background-color: rgb(41, 41, 41);
-  font-size: 22px;
-  border-radius: 8px;
-  color: aquamarine;
-  height: 64px;
-  width: 164px;
-  border: none;
-  box-shadow: 4px 4px 8px;
+    background-color: rgb(41, 41, 41);
+    font-size: 22px;
+    border-radius: 8px;
+    color: aquamarine;
+    height: 64px;
+    width: 164px;
+    border: none;
+    /* box-shadow: 4px 4px 8px; */
+}
+
+.containers .buttonIcon {
+    width: 64px;
+    height: 64px;
+    /* display: grid; */
+    /* flex-direction: row-reverse; */
+    /* justify-content: flex-end; */
+    /* flex-direction: column; */
 }
 
 button:hover {
